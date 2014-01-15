@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB31F5AB1885FB2400FC398D /* bypeople.png in Resources */ = {isa = PBXBuildFile; fileRef = EB31F5AA1885FB2400FC398D /* bypeople.png */; };
+		EB6AECDD1885A1130047EF08 /* bottombutton1.png in Resources */ = {isa = PBXBuildFile; fileRef = EB6AECDA1885A1130047EF08 /* bottombutton1.png */; };
+		EB6AECDE1885A1130047EF08 /* topbutton1.png in Resources */ = {isa = PBXBuildFile; fileRef = EB6AECDB1885A1130047EF08 /* topbutton1.png */; };
+		EB6AECDF1885A1130047EF08 /* middlebutton1.png in Resources */ = {isa = PBXBuildFile; fileRef = EB6AECDC1885A1130047EF08 /* middlebutton1.png */; };
+		EB6AECE21885C82C0047EF08 /* WebViewCustom.m in Sources */ = {isa = PBXBuildFile; fileRef = EB6AECE11885C82C0047EF08 /* WebViewCustom.m */; };
+		EB6AECE41885D5950047EF08 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB6AECE31885D5950047EF08 /* ViewController_iPad.xib */; };
 		EBAEC0B518859AF0003DA133 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBAEC0B418859AF0003DA133 /* Foundation.framework */; };
 		EBAEC0B718859AF0003DA133 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBAEC0B618859AF0003DA133 /* CoreGraphics.framework */; };
 		EBAEC0B918859AF0003DA133 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBAEC0B818859AF0003DA133 /* UIKit.framework */; };
@@ -34,6 +40,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EB31F5AA1885FB2400FC398D /* bypeople.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bypeople.png; sourceTree = "<group>"; };
+		EB6AECDA1885A1130047EF08 /* bottombutton1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bottombutton1.png; sourceTree = "<group>"; };
+		EB6AECDB1885A1130047EF08 /* topbutton1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = topbutton1.png; sourceTree = "<group>"; };
+		EB6AECDC1885A1130047EF08 /* middlebutton1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = middlebutton1.png; sourceTree = "<group>"; };
+		EB6AECE01885C82C0047EF08 /* WebViewCustom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewCustom.h; sourceTree = "<group>"; };
+		EB6AECE11885C82C0047EF08 /* WebViewCustom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewCustom.m; sourceTree = "<group>"; };
+		EB6AECE31885D5950047EF08 /* ViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController_iPad.xib; sourceTree = "<group>"; };
 		EBAEC0B118859AF0003DA133 /* WR_Welfare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WR_Welfare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBAEC0B418859AF0003DA133 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EBAEC0B618859AF0003DA133 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -117,6 +130,13 @@
 				EBAEC0C618859AF0003DA133 /* Main.storyboard */,
 				EBAEC0C918859AF0003DA133 /* ViewController.h */,
 				EBAEC0CA18859AF0003DA133 /* ViewController.m */,
+				EB6AECE01885C82C0047EF08 /* WebViewCustom.h */,
+				EB6AECE11885C82C0047EF08 /* WebViewCustom.m */,
+				EB6AECDA1885A1130047EF08 /* bottombutton1.png */,
+				EB31F5AA1885FB2400FC398D /* bypeople.png */,
+				EB6AECDB1885A1130047EF08 /* topbutton1.png */,
+				EB6AECDC1885A1130047EF08 /* middlebutton1.png */,
+				EB6AECE31885D5950047EF08 /* ViewController_iPad.xib */,
 				EBAEC0CC18859AF0003DA133 /* Images.xcassets */,
 				EBAEC0BB18859AF0003DA133 /* Supporting Files */,
 			);
@@ -230,7 +250,12 @@
 			files = (
 				EBAEC0CD18859AF0003DA133 /* Images.xcassets in Resources */,
 				EBAEC0BF18859AF0003DA133 /* InfoPlist.strings in Resources */,
+				EB6AECDF1885A1130047EF08 /* middlebutton1.png in Resources */,
+				EB6AECE41885D5950047EF08 /* ViewController_iPad.xib in Resources */,
+				EB6AECDD1885A1130047EF08 /* bottombutton1.png in Resources */,
 				EBAEC0C818859AF0003DA133 /* Main.storyboard in Resources */,
+				EB6AECDE1885A1130047EF08 /* topbutton1.png in Resources */,
+				EB31F5AB1885FB2400FC398D /* bypeople.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EBAEC0CB18859AF0003DA133 /* ViewController.m in Sources */,
+				EB6AECE21885C82C0047EF08 /* WebViewCustom.m in Sources */,
 				EBAEC0C518859AF0003DA133 /* AppDelegate.m in Sources */,
 				EBAEC0C118859AF0003DA133 /* main.m in Sources */,
 			);
@@ -462,6 +488,7 @@
 				EBAEC0E518859AF0003DA133 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EBAEC0E618859AF0003DA133 /* Build configuration list for PBXNativeTarget "WR_WelfareTests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +497,7 @@
 				EBAEC0E818859AF0003DA133 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
